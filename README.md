@@ -6,7 +6,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-ff4b4b)
 ![AI](https://img.shields.io/badge/AI-Gemini_Pro_%2B_Perplexity-orange)
 
-## 📖 The Problem
+## Why
 Executive MBA programs require **synthesis**, not just transcription.
 - **Audio recordings** (Zoom H1) capture the *nuance* of the debate.
 - **Handwritten notes** (Wacom/Paper) capture my *interpretation* of the model.
@@ -14,7 +14,7 @@ Executive MBA programs require **synthesis**, not just transcription.
 
 Doing this manually for 8-hour lectures is inefficient.
 
-## 🚀 The Solution
+## How
 This is a local, privacy-first Python application that acts as a "Strategy Engine." It ingests raw classroom data and outputs a structured, market-validated strategic memo.
 
 ### The Architecture: "The Architect & The Auditor"
@@ -45,10 +45,10 @@ This is a local, privacy-first Python application that acts as a "Strategy Engin
 ### 2. Clone & Prepare
 ```bash
 # Clone this repository
-git clone [https://github.com/YOUR_USERNAME/emba-strategy-engine.git](https://github.com/YOUR_USERNAME/emba-strategy-engine.git)
+git clone [https://github.com/benjaminFaguer/emba-strategy-engine.git](https://github.com/benjaminFaguer/emba_assistant.git)
 
 # Navigate into the folder
-cd emba-strategy-engine
+cd emba_assistant
 
 # Create a Virtual Environment (Recommended)
 python3 -m venv venv
