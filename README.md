@@ -9,7 +9,7 @@
 ## Why
 Executive MBA programs require **synthesis**, not just transcription.
 - **Audio recordings** (Zoom H1) capture the *nuance* of the debate.
-- **Handwritten notes** (Wacom/Paper) capture my *interpretation* of the model.
+- **Handwritten notes** (Paper) capture my *interpretation* of the model.
 - **Real-world application** requires validating academic theory against live market data.
 
 Doing this manually for 8-hour lectures is inefficient.
@@ -18,7 +18,7 @@ Doing this manually for 8-hour lectures is inefficient.
 This is a local, privacy-first Python application that acts as a "Strategy Engine." It ingests raw classroom data and outputs a structured, market-validated strategic memo.
 
 ### The Architecture: "The Architect & The Auditor"
-1.  **The Architect (Google Gemini 1.5 Pro):**
+1.  **The Architect (Google Gemini 3):**
     * Ingests huge context (Audio + Images simultaneously).
     * "Listens" to the lecture while "reading" my handwritten diagrams.
     * Identifies gaps: *"The professor emphasized X, but you only wrote down Y."*
@@ -45,7 +45,7 @@ This is a local, privacy-first Python application that acts as a "Strategy Engin
 ### 2. Clone & Prepare
 ```bash
 # Clone this repository
-git clone [https://github.com/benjaminFaguer/emba-strategy-engine.git](https://github.com/benjaminFaguer/emba_assistant.git)
+git clone https://github.com/benjaminFaguer/emba_assistant.git
 
 # Navigate into the folder
 cd emba_assistant
